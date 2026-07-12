@@ -6,25 +6,25 @@ import { Meteors } from "@/components/ui/meteors"
 
 const BaseLayout = () => {
   return (
-    <div className="bg-background min-h-screen text-foreground">
-      <div className="z-30 relative bg-background">
+    <div className="min-h-screen bg-background text-foreground">
+      <div className="relative z-30 bg-background">
         <Navbar />
       </div>
 
       <main>
-        <div className="fixed inset-0 overflow-hidden pointer-events-none">
+        <div className="pointer-events-none fixed inset-0 overflow-hidden">
           <Meteors
             number={100}
-            className="bg-white/80 shadow-[0_0_0_1px_#ffffff20]"
+            className="bg-white/80 shadow-[0_0_0_1px_#ffffff20] md:z-20"
           />
         </div>
 
-        <div className="z-20 relative w-full">
+        <div className="relative z-20 w-full">
           <Outlet />
         </div>
       </main>
 
-      <div className="z-20 relative">
+      <div className="relative z-20">
         <Footer />
       </div>
     </div>

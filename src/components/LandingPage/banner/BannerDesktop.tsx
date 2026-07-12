@@ -14,8 +14,8 @@ const BannerDesktop = () => {
       <div className="relative z-20 flex items-center">
         <div className="max-w-[41rem]">
           <Pill>
-            <div className="flex items-center gap-2 text-base font-semibold 2xl:text-lg">
-              <FaHeartbeat className="animate-pulse text-purple" />
+            <div className="flex animate-pulse items-center gap-2 text-base font-semibold 2xl:text-lg">
+              <FaHeartbeat className="text-purple" />
               You are not alone
             </div>
           </Pill>

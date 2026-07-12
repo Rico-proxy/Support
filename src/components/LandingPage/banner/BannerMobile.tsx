@@ -8,7 +8,7 @@ import { LuMessageCircleMore } from "react-icons/lu"
 
 const BannerMobile = () => {
   return (
-    <section className="relative rounded-b-[2rem] overflow-hidden">
+    <section className="relative m-4 rounded-[2rem] overflow-hidden">
       <img
         src={hero}
         alt="Support community"
@@ -18,8 +18,8 @@ const BannerMobile = () => {
 
       <div className="relative justify-items-center content-start gap-8 grid px-6 py-10 h-full">
         <Pill>
-          <div className="flex items-center gap-2 font-semibold">
-            <FaHeartbeat className="text-purple animate-pulse" />
+          <div className="flex items-center gap-2 font-semibold animate-pulse">
+            <FaHeartbeat className="text-purple" />
             You are not alone
           </div>
         </Pill>
