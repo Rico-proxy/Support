@@ -1,14 +1,14 @@
-import Pill from "../Shared/Pill"
-import { FaHeartbeat } from "react-icons/fa"
-import { LuMessageCircleMore } from "react-icons/lu"
-import { FaArrowRightLong } from "react-icons/fa6"
+import Pill from "@/components/Shared/Pill"
+import { RainbowButton } from "@/components/ui/rainbow-button"
+import { ShimmerButton } from "@/components/ui/shimmer-button"
 import { hero } from "@/assets"
-import { RainbowButton } from "../ui/rainbow-button"
-import { ShimmerButton } from "../ui/shimmer-button"
+import { FaHeartbeat } from "react-icons/fa"
+import { FaArrowRightLong } from "react-icons/fa6"
+import { LuMessageCircleMore } from "react-icons/lu"
 
-const Banner = () => {
+const BannerMobile = () => {
   return (
-    <section className="relative mt-5 rounded-[2rem] overflow-hidden">
+    <section className="relative rounded-b-[2rem] overflow-hidden">
       <img
         src={hero}
         alt="Support community"
@@ -54,4 +54,4 @@ const Banner = () => {
   )
 }
 
-export default Banner
+export default BannerMobile

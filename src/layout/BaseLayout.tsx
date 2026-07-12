@@ -14,7 +14,7 @@ const BaseLayout = () => {
       <main>
         <div className="fixed inset-0 overflow-hidden pointer-events-none">
           <Meteors
-            number={200}
+            number={100}
             className="bg-white/80 shadow-[0_0_0_1px_#ffffff20]"
           />
         </div>
@@ -24,7 +24,7 @@ const BaseLayout = () => {
         </div>
       </main>
 
-      <div className="relative z-20">
+      <div className="z-20 relative">
         <Footer />
       </div>
     </div>
