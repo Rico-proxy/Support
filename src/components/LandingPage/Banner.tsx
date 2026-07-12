@@ -2,7 +2,7 @@ import Pill from "../Shared/Pill"
 import { FaHeartbeat } from "react-icons/fa"
 import { LuMessageCircleMore } from "react-icons/lu"
 import { FaArrowRightLong } from "react-icons/fa6"
-import { hero } from "@/assets"
+// import { hero } from "@/assets"
 import { RainbowButton } from "../ui/rainbow-button"
 import { ShimmerButton } from "../ui/shimmer-button"
 
