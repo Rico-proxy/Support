@@ -8,7 +8,7 @@ import { LuMessageCircleMore } from "react-icons/lu"
 
 const BannerMobile = () => {
   return (
-    <section className="relative m-4 rounded-[2rem] overflow-hidden">
+    <section className="relative rounded-2xl overflow-hidden">
       <img
         src={hero}
         alt="Support community"
